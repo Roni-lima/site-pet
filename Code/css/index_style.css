@@ -1,0 +1,284 @@
+@font-face {
+    font-family: "lilita";
+    src: url(fontes/LilitaOne-Regular.ttf);
+
+}
+
+
+body {
+    background-color: rgb(231, 240, 247);;
+}
+
+
+.navlinks :visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700px;
+    font-style: normal;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+        
+}
+
+.navlinks :link{
+    color: rgb(254, 207, 68);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 700px;
+    font-style: normal;
+    text-align: center;
+    padding: 25px 10px 25px 10px;
+}
+
+.navlinks, .txt3 a :hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20px;
+    font-size: 110%;
+    background-color: #0b1d5e;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 27px;
+    padding: 10px 10px 10px 10px;
+    
+}
+.botaoP :link{
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 1000;
+    font-size: 110%;
+    font-style: normal;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+.butpp{
+    margin-right:  320px;
+    
+}
+
+
+
+.botaoW :link{
+    
+   
+   width: 80%;
+   margin-bottom: 30%;
+    margin-top: 30%;
+}
+.botaoW, .txt4 a :hover{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -18px;
+    margin-top: -18px;
+   
+    text-align: center;
+    padding: 22px 22px 22px 22px;
+    border-radius: 27px;
+    
+}
+
+.maintitle{
+    width: 48%;
+    min-width: 250px;
+    vertical-align: top;
+    font-family: Calming;
+    font-size: 20px;
+    text-align: center;
+    color:rgb(11, 29, 94);
+    
+    
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.txt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: #2c2c2c;
+    text-align: center;
+    
+}
+
+.txt h2{
+    font-family:  sans-serif;
+    text-align: left;
+    font-size: 350%;
+    color:rgb(11, 29, 94);
+    margin-left: 80px;
+    margin-top: 120px;
+}
+.txt h3 {
+    color: #EFBF37;
+    font-size: 200%;
+    font-family:'Lilita One', sans-serif;
+}
+
+.txt2 {
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+    color:rgb(11, 29, 94);
+    text-align: center; 
+    
+    padding: 10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    
+}
+.txt3 {
+    font-family: 'Lilita One', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70%;
+    color: rgb(11, 29, 94);
+    text-align: center; 
+    background-color:rgb(231, 240, 247);
+    padding: 10px;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    border-radius: 25px;
+}
+
+.txt2 h2 {
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 10;
+    font-style: italic;
+}
+
+.txt b {
+    font-family: futura-pt, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.txt2 h3, h4 {
+    font-family: 'Lilita One', sans-serif;
+
+}
+
+
+.txt3 h2 {
+    font-family: Calming;
+    font-weight: 700;
+}
+
+
+
+.footer {
+    display: block;
+    font-family: futura-pt, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
+    
+}
+
+.container {
+    display: flex; /* Ativar o modelo de layout flexível */
+  }
+
+  .box {
+    width: 50%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px; /* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .box2 {
+    width: 10%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px; /* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .box3 {
+    width: 90%; /* Cada div ocupará metade da largura do contêiner */
+    box-sizing: border-box; /* Garante que a borda está incluída na largura e altura */
+    padding: 20px;  
+    margin-right: 10%;/* Adiciona um espaçamento interno para melhorar a aparência */
+  }
+  .testebordas{
+    border-radius: 50%;
+  }
+
+  .section-cta{
+    background-color: #e7f0f7;
+    height: 600px;
+  }
+
+      /* Estilo para a seção */
+      .section-text{
+        background-color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px;
+        padding-top: 30px;
+        padding-bottom: 70px;
+      }
+  
+      /* Estilo para a div da imagem */
+      .image-container {
+        flex: 1;
+      }
+  
+      .image-container img {
+        max-width: 70%;
+        height: auto;
+        border-radius: 30px; /* Adicione borda arredondada se desejar*/
+        padding: 40px 70px;
+      }
+  
+      /* Estilo para a div do texto */
+      .text-container {
+        flex: 1;
+        padding-left: 20px; /* Espaçamento à esquerda para separar a imagem do texto */
+        text-align: center;
+        margin-right: 30px;
+      }
+  
+      .text-container h2 {
+        font-family: 'Lilita One', sans-serif;
+        font-size: 30px;
+        margin-bottom: 10px;
+      }
+
+      .text-container h3{
+        font-family: 'Lilita One', sans-serif;
+
+      }
+  
+      .text-container p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        text-align: center;
+        line-height: 1.5
+      }
+
+      .section-location{
+        height: 500px;
+      }
+    
+      .section-location p{
+        font-size: 15px;
+       font-weight: 400;
+       padding-top: 20px
+      }
+    
+    
